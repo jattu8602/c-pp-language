@@ -7,7 +7,22 @@ int, float, char,double,boolean
 int sum = 23; means sum is an integer varilabe which holds value 23 in memory
 
 
+SYNTAX FOR DECLARING VARIABLES IN C++
+data_type variable_name  =  value
+example: int a = 4,b = 3;
+based on scope, variables can be classified into two types
+1.local variables
+2.global vriables
 
+
+VARIABLE SCOPE
+scope of a variable is the region in code where the existance of variable is valid.
+based on scope we have local and global variables in c++
+LOCAL VARIABLES:- local variables are declared inside the braces of any function and can be accessed 
+                  only from here.
+GLOBAL VARIABLES:- global variables are declared outside any funciton and can be excessed form 
+                   anywhere.
+                                     
 */
 
 
