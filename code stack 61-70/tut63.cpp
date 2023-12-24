@@ -23,7 +23,24 @@ template<class T>
 class vector{
     T* arr;
     public:
+    vector(T* ar){
+        //codes
+    }
+    {//and many more methods}
     
+    
+    
+    
+    
+    
+    
+    T can be int, float ,char,etc...
+    int main(){
+        vector<int>myvec(ptr);
+        vector<float>myfvec(ptr);
+
+    }
+
 }
 */
 
