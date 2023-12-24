@@ -3,7 +3,10 @@
 // 1.> systum headerfile : it comes with the compiler.
 #include<iostream>
 // 2.>user defined headerfiles : it is written by the programmer.
-//#include"this.h"//this will produce error if this.h file is not present in sysytum directory
+//#include"this.h"//this will produce error if this.h file is not present in systum directory
+// #include"this.h"
+//we can search online for headerfiles
+#include<math.h>
 
 
 using namespace std;
@@ -20,7 +23,7 @@ int main(){
     cout<<"the value of a - b is:"<< a - b <<endl;
     cout<<"the value of a * b is:"<< a * b <<endl;
     cout<<"the value of a / b is:"<< a / b <<endl;
-    cout<<"the value of a % b is:"<< a % b <<endl;
+    cout<<"the value of a % b is:"<< a%b <<endl;
     cout<<"the value of a++ is:"<< a++ <<endl;
     cout<<"the value of ++a is:"<< ++a <<endl;
     cout<<"the value of a-- is:"<< a-- <<endl;
