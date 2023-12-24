@@ -22,7 +22,32 @@ LOCAL VARIABLES:- local variables are declared inside the braces of any function
                   only from here.
 GLOBAL VARIABLES:- global variables are declared outside any funciton and can be excessed form 
                    anywhere.
-                                     
+
+
+
+BUILT IN DATA TYPES 
+int : 1,2 ,3,4,5,6,.....
+float : 3.45 ,3.678    (decimal numbers of low precision)
+char :  D,c,p,L,k   
+double : 3.2345452543645657568568568765978.......(decimal numbers of high percison)
+bool : true and false
+
+
+
+
+
+USER DEFINED DATA TYPES IN C++
+struct
+union
+enum
+
+
+
+DERIVED DATA TYPES IN C++
+array
+function 
+pointer
+
 */
 
 
@@ -31,7 +56,7 @@ using namespace std;
 int glo = 6;
 void sum(){
     int a;
-    cout<< glo;
+    cout<< glo<<endl;
 
 }
 int main()
@@ -46,9 +71,18 @@ int main()
     bool is_true = false;
 
     // sum();
-    cout <<glo<< is_true<<endl;
+    cout <<glo<<endl<< is_true<<endl;
     cout <<"the value of pi is"<<pi;
     cout << "\nthis is tutorial 4. \nhere the value of a is " << a << ". \nthe value of b is" << b <<".";
     cout <<"\nthe value of c is "<<c<<".";
     return 0;
 }
+/*
+RULES TO DECLARE VARIABLES IN C++
+variable name in c++ can range from 1 to 255 characters
+all variable name must begin with a letter of the alphabet or an underscore
+after the first initial letter,variable name can also contain letters and numbers
+variable names are case sensitive
+no spaces or special characters are allowed 
+you cannot use a c++ keyword (a reverse word ) as a variable name.
+*/
