@@ -1,3 +1,16 @@
+/*
+VARIABLES IN C++
+a variable is a conatainer to hold data
+variable can be of various types 
+primariliy we have these variables types in c++
+int, float, char,double,boolean
+int sum = 23; means sum is an integer varilabe which holds value 23 in memory
+
+
+
+*/
+
+
 #include <iostream>
 using namespace std;
 int glo = 6;

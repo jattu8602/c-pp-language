@@ -17,16 +17,16 @@ public:
         cout << "your number is :" << a << " + " << b << "i" << endl;
     }
 };
-class calculator{ 
-    public:
-    int add(int a, int b){
-        return (a+b);
-    }
-    int sumComplex(Complex o1,Complex o2){
-        return (o1.a+o2.a);
-    }
+// class calculator{ 
+//     public:
+//     int add(int a, int b){
+//         return (a+b);
+//     }
+//     int sumComplex(Complex o1,Complex o2){
+//         return (o1.a+o2.a);
+//     }
 
-}
+// };
 
 int main(){
 

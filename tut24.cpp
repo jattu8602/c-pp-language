@@ -19,11 +19,10 @@ public:
 
         cout << "the id of this employeee is" << id << "and this is employee number" << count << endl;
     }
-    static void getCount(void){
-        cout<<"the value of count is"<<count<<endl;
+    static void getCount(void)
+    {
+        cout << "the value of count is" << count << endl;
     }
-
-
 };
 int employee::count = 100; // default value is 0
 int main()
@@ -31,16 +30,16 @@ int main()
     employee jatin, nitin, rohan, avi;
     jatin.setData();
     jatin.getData();
-    employee :: getCount();
+    employee ::getCount();
     nitin.setData();
     nitin.getData();
-    employee :: getCount();
+    employee ::getCount();
     rohan.setData();
     rohan.getData();
-    employee :: getCount();
+    employee ::getCount();
     avi.setData();
     avi.getData();
-    employee :: getCount();
+    employee ::getCount();
 
     return 0;
 }
