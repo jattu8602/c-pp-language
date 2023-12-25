@@ -1,4 +1,4 @@
-//class templates with multiple parameters
+//class templates with multiple parametersz(multiple comma seperated)
 #include<iostream>
 using namespace std;
 /*
