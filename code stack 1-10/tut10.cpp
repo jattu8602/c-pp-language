@@ -1,13 +1,14 @@
 #include<iostream>
-using namespace std;
-int main(){
-    /*FOR LOOP IN C++
+  /*LOOP IN C++
     THERE ARE THREEE TYPES OF LOOPS IN C++
     1.FOR LOOP
     2.WHILE LOOP
     3.DO-WHILE LOOP
     
     */
+using namespace std;
+int main(){
+  
    /*FOR LOOP IN C++*/
     // int i = 1;
     // cout<<i;

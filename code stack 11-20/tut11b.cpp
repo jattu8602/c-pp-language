@@ -1,16 +1,14 @@
 #include<iostream>
 using namespace std;
-//loop with continue
+//loops
 int main(){
-    
     for (int i = 0; i < 4; i++)
     {
         
         if(i==2){
-            continue;
+            break;
         }
         cout<<i<<endl;
     }
-    
     return 0;
 }
