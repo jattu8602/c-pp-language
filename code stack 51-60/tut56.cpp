@@ -3,19 +3,19 @@
 using namespace std;
 class BaseClass{
     public:
-    int var_base;
-    void display()
+    int var_base = 1;
+    virtual void display()
 {
-    cout<<"displaying base class variable var_base:"<<var_base<<endl;
+    cout<<"1 displaying base class variable var_base:"<<var_base<<endl;
 
 }
 };
 class DerivedClass : public BaseClass{
     public:
-    int var_derived =1;
+    int var_derived =2;
     void display(){
-    cout<<"displaying base class variable var_derived:"<<var_derived<<endl;
-    cout<<"displaying base class variable var_base:"<<var_base<<endl;
+    cout<<"2 displaying base class variable var_derived:"<<var_derived<<endl;
+    cout<<"2 displaying base class variable var_base:"<<var_base<<endl;
 
 
     }
@@ -30,6 +30,8 @@ int main(){
     
     base_class_pointer = &obj_derived;
     base_class_pointer->display();
+
+
 
 
     
