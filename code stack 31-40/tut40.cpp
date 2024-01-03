@@ -1,63 +1,70 @@
 /*
                         MULTI-LEVEL INHERITANCE
+NOTES:-
+If we are inheriting B form A and C from B:[A--->B---->C]-
+1.>A is the base class for B and B is the base class for C
+2.>A--->B---->C  is called inheritence Path
+
 
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-class student{
-    protected:
+class student
+{
+protected:
     int roll_no;
-    public:
+
+public:
     void set_rollnumber(int);
     void get_rollnumber(void);
 };
-void student :: set_rollnumber(int r){
+void student ::set_rollnumber(int r)
+{
     roll_no = r;
 }
-void student:: get_rollnumber(){
-    cout<<"the roll number is :"<<roll_no<<endl;
+void student::get_rollnumber()
+{
+    cout << "the roll number is :" << roll_no << endl;
 }
-class Exam: public student{
-    protected:
+class Exam : public student
+{
+protected:
     float maths;
     float physics;
-    public:
-    void set_marks(float,float);
-    void get_marks(void);
 
+public:
+    void set_marks(float, float);
+    void get_marks(void);
 };
-void Exam :: set_marks(float m1 ,float m2){
-maths = m1;
-physics = m2;
+void Exam ::set_marks(float m1, float m2)
+{
+    maths = m1;
+    physics = m2;
 }
-void Exam :: get_marks(){
-    cout<<"the marks obtained in maths are:"<<maths<<endl;
-    cout<<"the marks obtained in physics are :"<<physics<<endl;
+void Exam ::get_marks()
+{
+    cout << "the marks obtained in maths are:" << maths << endl;
+    cout << "the marks obtained in physics are :" << physics << endl;
 }
-class result : public Exam{
-    float percentage ;
-    public:
-    void display(){
+class result : public Exam
+{
+    float percentage;
+
+public:
+    void display()
+    {
         get_rollnumber();
         get_marks();
-        cout<<"your percentage is "<<(maths +physics)/2<<"%"<<endl;
+        cout << "your percentage is " << (maths + physics) / 2 << "%" << endl;
     }
-
 };
-int main(){
+int main()
+{
     result jatin;
     jatin.set_rollnumber(693);
-    jatin.set_marks(34.0,91.0);
+    jatin.set_marks(34.0, 91.0);
     jatin.display();
 
-
-
-
-
-
-
-
-    
     return 0;
 }
