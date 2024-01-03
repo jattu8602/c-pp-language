@@ -43,6 +43,11 @@ void derived :: display(){
       cout<<"value of data 3 is : "<<data3<<endl;
 }
 int main(){
-    nadi dosh
+    derived der;
+    der.setdata();
+    der.process();
+    der.display();
+    
+
     return 0;
 }
