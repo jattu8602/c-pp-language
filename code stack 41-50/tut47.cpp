@@ -43,7 +43,7 @@ int main(){
     simplecalculator c1;
     c1.getdata();
     c1.performoperations();
-    scientific c2;
+    scientificcalculator c2;
     c2.getdata();
     c2.performoperations();
     return 0;
